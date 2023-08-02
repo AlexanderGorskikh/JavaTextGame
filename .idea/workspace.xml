@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="471673ce-37b1-4ce6-9bdf-50b5f470d755" name="Changes" comment="Добавил функционал для сохранения и загрузки модели">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Thief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/GameEntities/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/TestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/java_text_game/javatextgame/model/TestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="471673ce-37b1-4ce6-9bdf-50b5f470d755" name="Changes" comment="Добавил точку спавна на карте, изменил у игрока локацию по X и Y на массив X и Y" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690981852113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил точку спавна на карте, изменил у игрока локацию по X и Y на массив X и Y">
+      <option name="closed" value="true" />
+      <created>1690982028500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690982028500</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +119,7 @@
     <MESSAGE value="Init file" />
     <MESSAGE value="add basic UI" />
     <MESSAGE value="Добавил функционал для сохранения и загрузки модели" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил функционал для сохранения и загрузки модели" />
+    <MESSAGE value="Добавил точку спавна на карте, изменил у игрока локацию по X и Y на массив X и Y" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил точку спавна на карте, изменил у игрока локацию по X и Y на массив X и Y" />
   </component>
 </project>

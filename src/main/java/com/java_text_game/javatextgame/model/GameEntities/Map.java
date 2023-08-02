@@ -27,12 +27,25 @@ public class Map {
         SPAWN_POINT[0] = 15;
         SPAWN_POINT[1] = 15; // Место где появляется игрок при создании карты
         land = new MapElement[MAP_SIZE][MAP_SIZE];
-        player.setX(15);
-        player.setY(15);
+        player.setX(SPAWN_POINT[0]);
+        player.setY(SPAWN_POINT[1]);
     }
 
-    public MapElement getLocate(){
-        return land[player.getLocate()[0]][player.getLocate()[1]]; // Метод получения элемента карты на котором стоит игрок
+    // TODO методы перемещения игрока (Оставить тут или вынести в интерфейс?)
+    public void moveRight(){
+        player.setX(++player.getLocate()[0]);
+    }
+    public void moveLeft(){
+        player.setX(--player.getLocate()[0]);
+    }
+    public void moveUp(){
+        player.setY(++player.getLocate()[1]);
+    }
+    public void moveDown(){
+        player.setY(--player.getLocate()[1]);
+    }
+    public MapElement getLocate(){ // Метод получения элемента карты на котором стоит игрок
+        return land[player.getLocate()[0]][player.getLocate()[1]];
     }
 
 }
