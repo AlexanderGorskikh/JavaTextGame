@@ -1,4 +1,4 @@
-package com.java_text_game.javatextgame;
+package com.java_text_game.javatextgame.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

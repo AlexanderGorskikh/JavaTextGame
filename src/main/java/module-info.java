@@ -8,4 +8,6 @@ module com.java_text_game.javatextgame {
 
     opens com.java_text_game.javatextgame to javafx.fxml;
     exports com.java_text_game.javatextgame;
+    exports com.java_text_game.javatextgame.controllers;
+    opens com.java_text_game.javatextgame.controllers to javafx.fxml;
 }
